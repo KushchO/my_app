@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.header__subcribe {  margin-left: auto;
+  background-color: orangered;
+  border-radius: 5px;
+  line-height: 30px;
+  border: none;
+}
