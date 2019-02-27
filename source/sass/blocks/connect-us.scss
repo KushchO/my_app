@@ -1,0 +1,16 @@
+.connect-us__list {
+    @include resetList;
+    display: flex;
+}
+
+.connect-us__item {
+    display: flex;
+}
+
+.connect-us__text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20;
+  line-height: 100%;
+  margin-left: 15px;
+}

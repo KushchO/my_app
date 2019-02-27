@@ -2,12 +2,19 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px;
+  flex-direction: column;
 }
 
-.header__subcribe {  margin-left: auto;
-  background-color: orangered;
-  border-radius: 5px;
-  line-height: 30px;
-  border: none;
+.header__primary {
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  background-color: #424A4E;
 }
+
+.header__phone {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
